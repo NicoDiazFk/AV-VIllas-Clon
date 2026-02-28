@@ -1,1 +1,756 @@
-<h1>Av VIllas Clon</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Banco AV Villas</title>
+</head>
+<body>
+
+    <header>
+        <!-- Barra superior con links principales -->
+    <div class="top-bar">
+        <div class="container-2">
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="#">Productos Digitales</a></li>
+                    <li class="gray-item"><a href="#">Productos en Oficina</a></li>
+                    <li class="gray-item empresas"><a href="#">Empresas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Barra principal con logo, búsqueda y menús -->
+    <div class="main-header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">
+                    <img src="IMG/HEADER/layout_set_logo.png" alt="AV Villas">
+                </a>
+            </div>
+            
+            <!-- Barra de búsqueda -->
+            <div class="search-bar">
+                <button type="submit" aria-label="Buscar">
+                    <i class="search-icon"></i>
+                </button>
+                <input type="text" placeholder="¿Qué estás buscando?">
+            </div>
+            
+            <!-- Botón hamburguesa para móvil -->
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Menús de navegación -->
+            <nav class="main-nav">
+                <ul>
+                    <!-- Zona Promo -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Zona Promo <i class="arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Viajes</a></li>
+                            <li><a href="#">Tasa 0%</a></li>
+                            <li><a href="#">Conoce Más</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Pagos en Línea -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Pagos en Línea <i class="arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Pago de facturas</a></li>
+                            <li><a href="#">Transferencias</a></li>
+                            <li><a href="#">Recargas</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Canales de Atención -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Canales de Atención <i class="arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Chat en línea</a></li>
+                            <li><a href="#">Oficinas</a></li>
+                            <li><a href="#">Teléfonos</a></li>
+                            <li><a href="#">WhatsApp</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+        <nav class="main-nav">
+            <div class="nav-links">
+                <a href="#">Tarjeta de Crédito</a>
+                <a href="#">Cuenta de Ahorros</a>
+                <a href="#">CDT Digital</a>
+                <a href="#">Crédito Libre Inversión</a>
+                <a href="#">Crédito Hipotecario</a>
+            </div>
+            <div class="login-buttons">
+                <a href="#" class="btn btn-outline">QUIERO SER CLIENTE</a>
+                <a href="#" class="btn btn-primary">INGRESO CLIENTE ›</a>
+            </div>
+        </nav>
+    </header>
+    <!-- Botón Únete a AV Villas Digital (versión colapsada) -->
+    <div class="join-button-collapsed" id="joinButtonCollapsed">
+        <span>Únete a AV Villas Digital</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+
+    <!-- Botón Únete a AV Villas Digital (versión expandida) -->
+    <div class="join-panel" id="joinPanel">
+        <div class="join-panel-header">
+            <div class="join-panel-title">
+                <div class="title-dash">––</div>
+                <div>
+                    <h2>Únete a AV Villas Digital</h2>
+                    <p>Aprovecha todos los beneficios que tenemos para ti.</p>
+                </div>
+            </div>
+            <button class="close-button" id="closePanel">&times;</button>
+        </div>
+        <div class="join-panel-content">
+            <button class="client-button">QUIERO SER CLIENTE</button>
+        </div>
+    </div>
+
+    <!-- Botón de Chat -->
+    <div class="chat-button">
+        <div class="chat-icon">
+            <img src="IMG/BOTONES-OFF-SCROLL/avatar_bot.png" alt="">
+        </div>
+        <span>CHAT</span>
+    </div>
+    
+    <div class="body-content">
+        <div class="main-container">
+            <section class="tarjetas">
+                <!-- Tarjeta 1: Carrusel -->
+                <div class="tarjeta carrusel-container">
+                    <div class="carrusel-track">
+                        <!-- Slides -->
+                        <div class="carrusel-slide">
+                            <div class="contenido-texto">
+                                <h3 class="carousel-title">Bolsillos con Rentabilidad AVVillas</h3>
+                                <h2 class="carousel-heading">Ahorra con hasta 9.5 % E.A. de rendimientos</h2>
+                                <p class="carousel-text">Abre tus bolsillos con Rentabilidad en AVVillas APP y Banca Virtual y ve crecer tu dinero.</p>
+                                <a href="#" class="carousel-button">Conoce más</a>
+                            </div>
+                            <div class="contenido-imagen-carrusel">
+                                <img src="IMG/CARRUSEL/numero1.webp" class="carrusel-image" alt="Carrusel 1">
+                            </div>
+                        </div>
+                        <div class="carrusel-slide">
+                            <div class="contenido-texto">
+                                <h3 class="carousel-title">Créditos rápidos</h3>
+                                <h2 class="carousel-heading">Solicita tu crédito en minutos</h2>
+                                <p class="carousel-text">Accede desde nuestra app o sitio web y obtén tu crédito sin trámites.</p>
+                                <a href="#" class="carousel-button">Solicítalo Ya</a>
+                            </div>
+                            <div class="contenido-imagen-carrusel">
+                                <img src="IMG/CARRUSEL/numero2.webp" class="carrusel-image" alt="Carrusel 2">
+                            </div>
+                        </div>
+                        <div class="carrusel-slide">
+                            <div class="contenido-texto">
+                                <h3 class="carousel-title">Créditos rápidos</h3>
+                                <h2 class="carousel-heading">Solicita tu crédito en minutos</h2>
+                                <p class="carousel-text">Accede desde nuestra app o sitio web y obtén tu crédito sin trámites.</p>
+                                <a href="#" class="carousel-button">Solicítalo Ya</a>
+                            </div>
+                            <div class="contenido-imagen-carrusel">
+                                <img src="IMG/CARRUSEL/numero3.webp" class="carrusel-image" alt="Carrusel 2">
+                            </div>
+                        </div>
+                        <div class="carrusel-slide">
+                            <div class="contenido-texto">
+                                <h3 class="carousel-title">Créditos rápidos</h3>
+                                <h2 class="carousel-heading">Solicita tu crédito en minutos</h2>
+                                <p class="carousel-text">Accede desde nuestra app o sitio web y obtén tu crédito sin trámites.</p>
+                                <a href="#" class="carousel-button">Solicítalo Ya</a>
+                            </div>
+                            <div class="contenido-imagen-carrusel">
+                                <img src="IMG/CARRUSEL/numero4.webp" class="carrusel-image" alt="Carrusel 2">
+                            </div>
+                        </div>
+                        <div class="carrusel-slide">
+                            <div class="contenido-texto">
+                                <h3 class="carousel-title">Créditos rápidos</h3>
+                                <h2 class="carousel-heading">Solicita tu crédito en minutos</h2>
+                                <p class="carousel-text">Accede desde nuestra app o sitio web y obtén tu crédito sin trámites.</p>
+                                <a href="#" class="carousel-button">Solicítalo Ya</a>
+                            </div>
+                            <div class="contenido-imagen-carrusel">
+                                <img src="IMG/CARRUSEL/numero5.webp" class="carrusel-image" alt="Carrusel 2">
+                            </div>
+                        </div>
+                        <div class="carrusel-slide">
+                            <div class="contenido-texto">
+                                <h3 class="carousel-title">Créditos rápidos</h3>
+                                <h2 class="carousel-heading">Solicita tu crédito en minutos</h2>
+                                <p class="carousel-text">Accede desde nuestra app o sitio web y obtén tu crédito sin trámites.</p>
+                                <a href="#" class="carousel-button">Solicítalo Ya</a>
+                            </div>
+                            <div class="contenido-imagen-carrusel">
+                                <img src="IMG/CARRUSEL/numero6.webp" class="carrusel-image" alt="Carrusel 2">
+                            </div>
+                        </div>
+
+                    </div>
+                        <!-- Controles -->
+                        <div class="carrusel-controles">
+                            <button id="anterior">‹</button>
+                            <span class="pagination-text">1 / 6</span>
+                            <button id="siguiente">›</button>
+                            </div>
+                            <button id="pausar" class="pause-button">⏸</button>
+                        </div>
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta tarjeta2-container">
+                <div class="contenido-texto-2 ">
+                    <h2 class="carousel-heading">Cuenta de ahorros rentable</h2>
+                    <p class="carousel-text">Abre tus bolsillos con Rentabilidad en AVVillas APP y Banca Virtual y ve crecer tu dinero.</p>
+                    <a href="#" class="carousel-button-t2">Conoce más</a>
+                </div>
+                <div class="contenido-imagen-2"><img src="IMG/TARJETAS/tarjeta2.webp" class="tarjeta-image-2" alt="Carrusel"></div>
+            </div>
+            
+        </section>
+        <div class="slider-movil">
+                <!-- Tarjeta 3 -->
+                <div class="tarjeta tarjeta3-container row2">
+                    <div class="contenido-imagen"><img src="IMG/TARJETAS/tarjeta3.webp" class="tarjeta-image2"alt="Carrusel"></div>
+                    <div class="contenido-texto">
+                    <h2 class="carousel-heading">Educación Financiera</h2>
+                    <p class="carousel-text">También puedes recibir remesas desde el exterior y sin cobros adicionales.</p>
+                    <a href="#" class="tarjet-link">Conoce más</a>
+                </div>
+            </div>
+            <!-- Tarjeta 4 -->
+            <div class="tarjeta tarjeta4-container row2">
+                <div class="contenido-imagen "><img src="IMG/TARJETAS/tarjeta4.webp" class="tarjeta-image" alt="Carrusel"></div>
+                <div class="contenido-texto">
+                    <h2 class="carousel-heading">Pasa, paga y recibe plata </h2>
+                    <p class="carousel-text">También puedes recibir remesas desde el exterior y sin cobros adicionales.</p>
+                    <a href="#" class="tarjet-link">Solicítalo aquí</a>
+                </div>
+            </div>
+            <!-- Tarjeta 5 -->
+            <div class="tarjeta tarjeta5-container">
+                <div class="contenido-imagen "><img src="IMG/TARJETAS/tarjeta5.webp" class="tarjeta-image-t5" alt="Carrusel"></div>
+                <div class="contenido-texto iphone">
+                    <h2 class="carousel-heading ">Por compras superiores a $800mil en referencias seleccionadas</h2>
+                    <a href="#" class="tarjet-link">Conoce más</a>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!------------SECCION #2 --------->
+    <div class="seccion2content-menu">
+  <nav class="menu-servicios">
+    <a href="">Productos Digitales</a>
+    <span class="separator">|</span>
+    <a href="">Canales Digitales</a>
+    <span class="separator">|</span>
+    <a href="">Blog</a>
+    <span class="separator hide-mobile">|</span>
+    <a href="#" class="servicios-tab hide-mobile">Localízanos</a>
+  </nav>
+</div>
+    <!------------SECCION #3 --------->
+    <div class="seccion3-container">
+        <div class="titulo-productos">
+            <div class="decorador">
+                <span class="linea-grande"></span>
+                <span class="linea-pequena"></span>
+                </div>
+            <h2 class="titulo-con-lineas">Productos Digitales</h2>
+            <p class="solicitalos-text">Solicítalos 100% en línea y sin salir de casa</p>
+        </div>
+
+        <div class="slider2-container">
+            <ul class="card-list">
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <div class="card-content-wrapper">
+                            <div class="decorador center">
+                                <span class="linea-grande"></span>
+                                <span class="linea-pequena"></span>
+                            </div>
+                            <h2 class="card-title">Crédito de libre inversión</h2>
+                            <p class="card-text">Dinero para lo que necesites, sin codeudor, estudio de crédito gratis y con desembolso a tu cuenta</p>
+                            <div class="imag-button">
+                                <img src="IMG/SLIDER2/list1.webp" alt="slide2-image#1" class="card-image">
+                                <span class="carousel-button">Solicíta tu crédito</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <div class="card-content-wrapper">
+                            <div class="decorador center">
+                                <span class="linea-grande"></span>
+                                <span class="linea-pequena"></span>
+                            </div>
+                            <h2 class="card-title">Tarjeta de Crédito</h2>
+                            <p class="card-text">Solicítala sin salir de casa, sin cuota de manejo* y accede a todas las preventas de conciertos Aval.</p>
+                            <div class="imag-button">
+                                <img src="IMG/SLIDER2/list2.webp" alt="slide2-image#2" class="card-image">
+                                <span class="carousel-button">Solicíta tu crédito</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <div class="card-content-wrapper">
+                            <div class="decorador center">
+                            <span class="linea-grande"></span>
+            <span class="linea-pequena"></span>
+          </div>
+          <h2 class="card-title">Cuenta de Ahorros</h2>
+          <p class="card-text">Sin cuota de manejo* y transferencias entre celulares, a través de Transfiya.</p>
+          <div class="imag-button">
+            <img src="IMG/SLIDER2/list3.webp" alt="slide2-image#3" class="card-image">
+            <span class="carousel-button">ÁBRELA AQUÍ</span>
+          </div>
+        </div>
+      </a>
+    </li>
+
+    <li class="card-item">
+      <a href="#" class="card-link">
+        <div class="card-content-wrapper">
+          <div class="decorador center">
+            <span class="linea-grande"></span>
+            <span class="linea-pequena"></span>
+          </div>
+          <h2 class="card-title">CDT Digital</h2>
+          <p class="card-text">Ábrelo desde $500 mil pesos, tasa fija y puedes traer tu dinero desde cualquier entidad por PSE.</p>
+          <div class="imag-button">
+            <img src="IMG/SLIDER2/list4.webp" alt="slide2-image#4" class="card-image">
+            <span class="carousel-button">ABRIR MI CDT</span>
+          </div>
+        </div>
+      </a>
+    </li>
+
+    <li class="card-item">
+      <a href="#" class="card-link">
+        <div class="card-content-wrapper">
+          <div class="decorador center">
+            <span class="linea-grande"></span>
+            <span class="linea-pequena"></span>
+          </div>
+          <h2 class="card-title">Crédito Hipotecario</h2>
+          <p class="card-text">Estudio de crédito sin costo con preaprobación en línea e inmediata. Pide tu crédito para vivienda VIS o No VIS*.</p>
+          <div class="imag-button">
+            <img src="IMG/SLIDER2/list5.webp" alt="slide2-image#5" class="card-image">
+            <span class="carousel-button">Solicíta AQUÍ</span>
+          </div>
+        </div>
+      </a>
+    </li>
+
+  </ul>
+
+  <div class="slider-controls">
+    <button class="slider-btn slider-prev" aria-label="Slide anterior">‹</button>
+    <span class="pagination-slides">1 / 5</span>
+    <button class="slider-btn slider-next" aria-label="Slide siguiente">›</button>
+  </div>
+</div>
+        </div>
+        
+    </div>
+    <!------------SECCION #4 --------->
+    <div class="seccion4-container">
+         <div class="titulo-Canales">
+            <div class="textos-titulos-canales">
+                <div class="decorador">
+                <span class="linea-grande"></span>
+                <span class="linea-pequena"></span>
+            </div>
+            <h2 class="titulo-con-lineas">Canales Digitales</h2>
+            <p class="subtitle-canales">Maneja fácilmente tus productos</p>
+            </div>
+            
+            <div class="canales-grid">
+                <div class="canales-img-content">
+                    <img src="IMG/SECCION4/PRIMER-FASE_AV-VILLAS-APP.webp" alt="AVVIllas APP">
+                </div>
+                <div class="canales-text-content-dos">
+                    <div class="canales-text-content">
+                        <div class="decorador center">
+                            <span class="linea-grande"></span>
+                            <span class="linea-pequena"></span>
+                        </div>
+                        <h3 class="titulo-con-lineas sub">AV Villas APP</h3>
+                        <ul class="lista-check">
+                            <li><span class="material-symbols-outlined">check</span>Transfiere de celular a celular</li>
+                            <li><span class="material-symbols-outlined">check</span>Abre Bolsillos de Ahorro</li>
+                            <li><span class="material-symbols-outlined">check</span>Retira sin tarjeta</li>
+                        </ul>
+                        <div class="label-conocela">
+                            <a href="#" class="tarjet-link canales">Conócela</a>
+                            <span class="material-symbols-outlined arrow">arrow_forward_ios</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <a href="#" class="btn-descargala">DESCÁRGALA</a>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <!------------SECCION #5 --------->
+    <div class="seccion5-container">
+        <div class="banca-grid">
+                <div class="canales-text-content-dos">
+                    <div class="canales-text-content">
+                        <div class="decorador center">
+                            <span class="linea-grande"></span>
+                            <span class="linea-pequena"></span>
+                        </div>
+                        <h3 class="titulo-con-lineas sub">Banca Virtual</h3>
+                        <ul class="lista-check">
+                            <li><span class="material-symbols-outlined">check</span>Crea contactos</li>
+                            <li><span class="material-symbols-outlined">check</span>Paga productos y servicios</li>
+                            <li><span class="material-symbols-outlined">check</span>Descarga certificados y extractos</li>
+                        </ul>
+                        <div class="label-conocela">
+                            <a href="#" class="tarjet-link canales">Conóce más</a>
+                            <span class="material-symbols-outlined arrow">arrow_forward_ios</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <a href="#" class="btn-descargala">REGÍSTRATE</a>
+                </div>
+                <div class="banca-img-content">
+                    <img src="IMG/SECCION5/PRIMER FASE_BANCA DIGITAL.webp" alt="Banca Virtual">
+                </div>
+            </div>
+    </div>
+    <!-- SECCIÓN #6 - BLOG -->
+<div class="seccion6-container">
+  <div class="textos-titulos-canales">
+    <div class="decorador">
+      <span class="linea-grande"></span>
+      <span class="linea-pequena"></span>
+    </div>
+    <h2 class="titulo-con-lineas">Te invitamos a nuestro Blog</h2>
+    <p class="subtitle-canales">Recomendaciones e información útil para proyectar tu vida y tu dinero.</p>
+  </div>
+
+  <div class="blog-grid">
+    <div class="content-blog">
+      <ul class="blog-list" id="blog-track">
+        <!-- Tarjeta 1 -->
+        <li class="card-item">
+          <a href="#" class="card-link-blog">
+            <div class="blog-card-content">
+              <img src="IMG/SECCION6/1.webp" alt="Imagen blog 1" class="card-image-blog">
+              <div class="text-card-blog">
+                <div class="title-y-span">
+                  <div class="decorador">
+                    <span class="linea-grande"></span>
+                    <span class="linea-pequena"></span>
+                  </div>
+                  <h2 class="card-title">¿Cómo registrarse en AV Villas App?</h2>
+                </div>
+                <p class="card-text-blog">Sigue estos pasos y realiza todo tipo de transacciones desde donde estés.</p>
+              </div>
+            </div>
+            <div class="imag-button">
+              <span class="carousel-button">Leer más</span>
+            </div>
+          </a>
+        </li>
+
+        <!-- Tarjeta 2 -->
+        <li class="card-item">
+          <a href="#" class="card-link-blog">
+            <div class="blog-card-content">
+              <img src="IMG/SECCION6/2.webp" alt="Imagen blog 2" class="card-image-blog">
+              <div class="text-card-blog">
+                <div class="title-y-span">
+                  <div class="decorador">
+                    <span class="linea-grande"></span>
+                    <span class="linea-pequena"></span>
+                  </div>
+                  <h2 class="card-title">¿Cómo registrarse en AV Villas App?</h2>
+                </div>
+                <p class="card-text-blog">Sigue estos pasos y realiza todo tipo de transacciones desde donde estés.</p>
+              </div>
+            </div>
+            <div class="imag-button">
+              <span class="carousel-button">Leer más</span>
+            </div>
+          </a>
+        </li>
+
+        <!-- Tarjeta 3 -->
+        <li class="card-item">
+          <a href="#" class="card-link-blog">
+            <div class="blog-card-content">
+              <img src="IMG/SECCION6/3.webp" alt="Imagen blog 3" class="card-image-blog">
+              <div class="text-card-blog">
+                <div class="title-y-span">
+                  <div class="decorador">
+                    <span class="linea-grande"></span>
+                    <span class="linea-pequena"></span>
+                  </div>
+                  <h2 class="card-title">¿Cómo registrarse en AV Villas App?</h2>
+                </div>
+                <p class="card-text-blog">Sigue estos pasos y realiza todo tipo de transacciones desde donde estés.</p>
+              </div>
+            </div>
+            <div class="imag-button">
+              <span class="carousel-button">Leer más</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Controles del carrusel -->
+      <div class="slider-controls">
+        <button class="slider-btn slider-prev-blog" aria-label="Slide anterior">‹</button>
+        <span class="pagination-slides-blog"></span>
+        <button class="slider-btn slider-next-blog" aria-label="Slide siguiente">›</button>
+      </div>
+
+      <!-- Botón de acción -->
+      <a href="#" class="btn-descargala">INGRESAR</a>
+    </div>
+  </div>
+</div>
+    <!------------SECCION #7 --------->
+    <div class="seccion7-container">
+        <div class="localizanos-grid">
+                <div class="localizanos-text-content">
+                    <div class="canales-text-content local">
+                        <p class="carousel-text">Localízanos</p>
+                        <div class="decorador-blue">
+                            <span class="linea-grande"></span>
+                            <span class="linea-pequena"></span>
+                        </div>
+                        <h3 class="titulo-con-lineas localiz">Cerca de ti para resolver tus necesidades</h3>
+                        <div class="button-container">
+                            <a href="#" class="carousel-button">Conoce más</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="iconos-grid">
+                    <div class="columna">
+                        <img src="IMG/SECCION7/1-OFICINAS.webp" alt="icono-1" class="icono">
+                        <a href="#" class="localiza-text-link">Oficinas AV Villas</a>
+                    </div>
+                    <div class="columna">
+                        <img src="IMG/SECCION7/2-CORRESPONSALES.webp" alt="icono-2" class="icono">
+                        <a href="#" class="localiza-text-link">Corresponsales Bancarios</a>
+                    </div>
+                    <div class="columna">
+                        <img src="IMG/SECCION7/3-CAJERO.webp" alt="icono-3" class="icono">
+                        <a href="#" class="localiza-text-link">Cajeros Automáticos</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!------------SECCION #8 --------->
+    <div class="seccion8-container">
+        <div class="exp-grid">
+                <div class="exp-img-content">
+                    <img src="IMG/SECCION8/PRIMER FASE_EXPERIENCIAS AVAL.webp" alt="Experiencias AVAL">
+                </div>
+                <div class="exp-text-content-dos">
+                    <div class="exp-text-content">
+                        <p>Experiencias Aval</p>
+                        <div class="decorador center">
+                            <span class="linea-grande"></span>
+                            <span class="linea-pequena"></span>
+                        </div>
+                        <h3 class="titulo-con-lineas sub">Vive experiencias únicas con AV Villas</h3>
+                        <p>Accede a preventas exclusivas de tus eventos favoritos con tus Tarjetas Crédito y Débito</p>
+                        <a href="#" class="btn-descargala">CONÓCE MÁS</a>                       
+                    </div>
+                    
+                </div>
+                
+            </div>
+    </div>
+<script src="script.js" defer></script>
+</body>
+<!-- Footer -->
+<footer>
+    <div class="footer-graybox">
+        <div class="section-graybox">
+            <a href="#" class="idk-link">Blog</a>
+            <a href="#" class="idk-link">Cliente Preferente</a>
+            <a href="#" class="idk-link">tuplús</a>
+            <a href="#" class="idk-link">Simuladores</a>
+        </div>
+        
+    </div>
+    <!-- Enlaces y secciones principales -->
+    <!-- Sección de enlaces principales con acordeón -->
+<div class="footer-main">
+  <!-- Institucional -->
+  <div class="footer-section">
+    <h3 class="footer-toggle">Institucional</h3>
+    <ul class="footer-links">
+      <li><a href="#">Sala de Prensa</a></li>
+      <li><a href="#">Gobierno Corporativo</a></li>
+      <li><a href="#">Sostenibilidad AV Villas</a></li>
+      <li><a href="#">Información corporativa</a></li>
+      <li><a href="#">Información Asamblea de Accionistas</a></li>
+    </ul>
+  </div>
+
+  <!-- De interés general -->
+  <div class="footer-section">
+    <h3 class="footer-toggle">De interés general</h3>
+    <ul class="footer-links">
+      <li><a href="#">Trabaja con Nosotros</a></li>
+      <li><a href="#">Interesados en ser Proveedores</a></li>
+      <li><a href="#">Consumidor financiero</a></li>
+      <li><a href="#">Defensor del consumidor</a></li>
+      <li><a href="#">Disponibilidad de Canales</a></li>
+      <li><a href="#">Transparencia y acceso a la información</a></li>
+    </ul>
+  </div>
+
+  <!-- Financiera -->
+  <div class="footer-section">
+    <h3 class="footer-toggle">Financiera</h3>
+    <ul class="footer-links">
+      <li><a href="#">Tasas y tarifas</a></li>
+      <li><a href="#">Topes de Canales Electrónicos</a></li>
+      <li><a href="#">Licitación de seguros</a></li>
+      <li><a href="#">Procedimientos ante AMV</a></li>
+      <li><a href="#">Relación con el Inversionista</a></li>
+      <li><a href="#">Educación Financiera</a></li>
+    </ul>
+  </div>
+
+  <!-- Acerca del sitio -->
+  <div class="footer-section">
+    <h3 class="footer-toggle">Acerca del sitio</h3>
+    <ul class="footer-links">
+      <li><a href="#">Mapa del Sitio</a></li>
+      <li><a href="#">Políticas de uso</a></li>
+      <li><a href="#">Protección de datos personales</a></li>
+      <li><a href="#">Biblioteca de Documentos</a></li>
+      <li><a href="#">Recomendaciones de seguridad</a></li>
+      <li><a href="#">Módulo Asesores</a></li>
+    </ul>
+  </div>
+</div>
+
+    <!-- Ayuda y enlaces sociales -->
+    <div class="footer-help">
+        <div class="help-text">
+            <p>¡Estamos para ayudarte!</p>
+        </div>
+        <div class="help-links">
+            <a href="#" class="help-link"><i class="icon-write"></i> Escríbenos</a>
+            <a href="#" class="help-link"><i class="icon-faq"></i> Preguntas frecuentes</a>
+            <a href="#" class="help-link"><i class="icon-ethics"></i> Línea Ética</a>
+        </div>
+        <div class="social-links">
+            <a href="#" aria-label="WhatsApp">
+                <img src="IMG/FOOTER/REDES/WSP.png" alt="WhatsApp" />
+            </a>
+            <a href="#" aria-label="Facebook">
+                <img src="IMG/FOOTER/REDES/facebook.png" alt="Facebook" />
+            </a>
+            <a href="#" aria-label="Instagram">
+                <img src="IMG/FOOTER/REDES/instagram.png" alt="Instagram" />
+            </a>
+            <a href="#" aria-label="TikTok">
+                <img src="IMG/FOOTER/REDES/tik-tok.png" alt="TikTok" />
+            </a>
+            <a href="#" aria-label="LinkedIn">
+                <img src="IMG/FOOTER/REDES/linkedin.png" alt="LinkedIn" />
+            </a>
+            <a href="#" aria-label="YouTube">
+                <img src="IMG/FOOTER/REDES/youtube.png" alt="YouTube" />
+            </a>
+        </div>
+    </div>
+
+    <!-- Información de contacto -->
+    <div class="footer-contact">
+        <div class="contact-info">
+            <p class="contact-title">Línea AudioVillas</p>
+            <p class="contact-text">Si tienes alguna duda, queja o reclamo comunícate con la línea de tu ciudad. Banco AV Villas Cr. 13 No. 26A-47 Bogotá</p>
+        </div>
+        
+        <div class="cities-container">
+            <div class="city">
+                <p class="city-name">Bogotá</p>
+                <p class="city-phone">+57 601 4441777</p>
+            </div>
+            <div class="city">
+                <p class="city-name">Medellín</p>
+                <p class="city-phone">+57 604 3256000</p>
+            </div>
+            <div class="city">
+                <p class="city-name">Cali</p>
+                <p class="city-phone">+57 602 8859595</p>
+            </div>
+            <div class="city">
+                <p class="city-name">Barranquilla</p>
+                <p class="city-phone">+57 605 3304330</p>
+            </div>
+            <div class="city">
+                <p class="city-name">Bucaramanga</p>
+                <p class="city-phone">+57 607 6302980</p>
+            </div>
+            <div class="city">
+                <p class="city-name">Resto del país</p>
+                <p class="city-phone">+57 01 8000 51 8000</p>
+            </div>
+        </div>
+
+        <div class="documents-section">
+            <p>Continúa con la solicitud de productos</p>
+            <button class="btn-upload">CARGA TUS DOCUMENTOS <span class="material-symbols-outlined">cloud_upload</span></button>
+        </div>
+    </div>
+
+    <!-- Logos y certificaciones -->
+    <div class="footer-logos">
+        <div class="brand-logos">
+            <img src="IMG/FOOTER/logos-footer_grupo-aval.png" alt="Logo AVAL">
+            <img src="IMG/FOOTER/logos-footer-tuplus.png" alt="Logo TuPlus">
+            <img src="IMG/FOOTER/logos-footer-avalpaycenter.png" alt="Logo Aval Pay Center">
+            <img src="IMG/FOOTER/logo ciudadempresarial.png" alt="Logo Ciudad Empresarial">
+            <img src="IMG/FOOTER/logo-facilpass-2023.png" alt="Logo FacilPass">
+        </div>
+        <div class="certification-logos">
+            <img src="IMG/FOOTER/logo-superintendencia.png" alt="Logo Vigilado Superintendencia Financiera">
+        </div>
+    </div>
+</footer>
+</html>
